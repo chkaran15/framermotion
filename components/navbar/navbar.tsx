@@ -34,7 +34,7 @@ export default function TopHeader() {
   });
 
   return (
-    <AnimatePresence mode="wait">
+    <AnimatePresence mode="sync">
       <motion.header
         initial={{
           opacity: 1,

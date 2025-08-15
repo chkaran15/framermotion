@@ -1,4 +1,5 @@
 import { ResuableHeaderSection } from "@/components/common/ResuableHeaderSection";
+import { ParallaxScrollDemo } from "@/components/ui/Parallex/ParallaxScrollDemo";
 import React from "react";
 
 export default function ServicePage() {
@@ -8,6 +9,15 @@ export default function ServicePage() {
         title="Service"
         description="We provide the best service to our customers."
       />
+
+      <div className="h-[70dvh] bg-slate-200"></div>
+
+      <div
+        className="-mt-[350px]  flex justify-center items-center  h-screen
+            "
+      >
+        <ParallaxScrollDemo />
+      </div>
     </div>
   );
 }

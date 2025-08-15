@@ -5,7 +5,7 @@ import { AnimatePresence } from "framer-motion";
 function OrganicAnimation() {
   return (
     <div className="border-2 border-red-500">
-      <AnimatePresence mode="wait">
+      <AnimatePresence mode="sync">
         <div className="wrapper text-center w-[50%] border-2 border-green-300  ">
           <svg
             xmlns="http://www.w3.org/2000/svg"
