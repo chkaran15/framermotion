@@ -1,8 +1,8 @@
 export const navData = [
   {
     id: 1,
-    name: "Home",
-    url: "/",
+    name: "Gallery",
+    url: "/gallery",
   },
   {
     id: 2,

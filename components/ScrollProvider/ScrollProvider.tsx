@@ -1,8 +1,9 @@
 "use client";
-import React, { useLayoutEffect } from "react";
-import Lenis from "lenis";
-import { StickyFooter } from "../Footer/StickyFooter";
 import { AnimatePresence } from "framer-motion";
+import Lenis from "lenis";
+import type React from "react";
+import { useLayoutEffect } from "react";
+import { StickyFooter } from "../Footer/StickyFooter";
 import TopHeader from "../navbar/navbar";
 
 export default function ScrollProvider({
